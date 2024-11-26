@@ -1,0 +1,244 @@
+.navigation-wrapper {
+    display: flex;
+    background-color: black;
+    margin: -8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 180px;
+    height: 100%;
+}
+
+.navigation-wrapper > .links-wrapper > .center-column {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    width: 700px;
+}
+
+  
+.navigation-wrapper > .right-column {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    justify-content: space-between;
+    
+}
+
+.links-wrapper > .center-column > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation-wrapper > .right-column > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links-wrapper > .center-column > #nav-link a {
+    font-family: "Ubuntu Condensed", serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    width: 500px;
+}
+
+.right-column > .nav-link p {
+    color: rgb(56, 191, 56);
+}
+
+.right-column > .nav-link a {
+  color: white;
+  border: none;
+  background-color: rgb(70, 68, 68);
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  grid-gap: 5px;
+  height: 8px;
+}
+
+.right-column > .nav-link2 {
+    display: flex;
+    align-items: center;
+}
+
+.links-wrapper > .center-column > .explore {
+    display: grid;
+}
+
+.navigation-wrapper > .links-wrapper > .nav-link-explore a {
+    color: #cea130;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 883px 600px;
+    grid-gap: 2rem;
+    background-image: linear-gradient(to bottom right, rgb(69, 74, 86), black);
+    margin: -8px;
+    padding: 40px 0;
+}
+
+.middle > .image h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.middle > .text {
+    display: grid;
+    font-family: "Roboto";
+    font-weight: lighter;
+    margin: -40px 100px 1px 70px;
+}
+
+.middle > .text p {
+    font-size: 45px;
+    color: white;
+    font-weight: lighter;
+}
+
+.middle > .text h2 {
+    font-size: 36px;
+    color: white;
+    opacity: 0.5;
+    font-family: "Roboto";
+    font-weight: lighter;
+    margin-top: -100px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+    margin-top: -180px;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.buttons > .button1 {
+    background-color: rgb(72, 214, 96); 
+    text-decoration:none ;
+    border: none;
+    border-radius: 4px;
+    padding: 25px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    align-items: center;
+    grid-gap: 5px;
+    height: 30px;
+}
+
+.buttons > .button1 a {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.buttons > .button2 {
+    text-decoration:none ;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 25px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    align-items: center;
+    grid-gap: 5px;
+    height: 30px;
+}
+
+.buttons > .button2 a {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 74, 86);
+    margin: -8px;
+    padding: 70px 0px;
+}
+
+.footer p {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer > .slogan1 {
+    display: flex;
+    margin-top: -88px;
+    border: 2px solid #a3a3a3;
+    background-color: rgb(42 45 52);
+    width: 21rem;
+    padding: 0px 70px;
+}
+
+.footer > .slogan2 {
+    display: flex;
+    margin-top: -88px;
+    border: 2px solid #a3a3a3;
+    background-color: rgb(42 45 52);
+    width: 21rem;
+    padding: 0px 70px;
+}
+
+.footer > .slogan3 {
+    display: flex;
+    margin-top: -88px;
+    border: 2px solid #a3a3a3;
+    background-color: rgb(42 45 52);
+    width: 21rem;
+    padding: 0px 70px;
+}
+
+.footer > .slogan4 {
+    display: flex;
+    margin-top: -88px;
+    border: 2px solid #a3a3a3;
+    background-color: rgb(42 45 52);
+    width: 21rem;
+    padding: 0px 70px;
+}
